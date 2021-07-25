@@ -8679,8 +8679,8 @@ body.is-preload #wrapper.fade-in:before {
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color: #212931;
-			background-image: url("overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("bg.jpg");
+			background-color: #11bfd8;
+			background-image: url("green.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("green.png");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
@@ -8704,7 +8704,7 @@ body.is-preload #wrapper.fade-in:before {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background: #1e252d;
+			background: #11bfd8;
 			content: '';
 			display: block;
 			height: 100%;
