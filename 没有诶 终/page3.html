@@ -35,106 +35,140 @@
 		</nav>
 
 	<!-- Main -->
-		<div id="main">
+	<div id="main">
 
-				<!-- Gallery -->
-					<section class="wrapper style1 align-center">
-						<div class="inner">
-							<h1>那你想怎么结束生命呢？</h1>
-							<p style="text-align:center">在这里驻足，说不定会得到 <strong>意想不到的答案</strong> 。 点击 <span class="demo-controls"></span>，选择你喜欢的版式。</p>
+			<!-- Gallery -->
+				<section class="wrapper style1 align-center">
+					<div class="inner">
+						<h1>在黑白里温柔地爱彩色</h1>
+						<p style="text-align:center">早上好，或下午好，又或晚上好<br>
+今天的你那边的天气是怎么样的呢？<br>
+有倾泻在大地上让人暖意洋洋的阳光<br>
+还是从穹顶落下在低畦处肆意起舞的雨滴<br>
+今天你遇到了什么有趣的事呢？<br>
+听到了一个完全戳中笑点的笑话<br>
+还是碰到了一首会单曲循环的音乐？<br>
+今天有名为喜欢的感觉吗？<br>
+是布偶娃娃毛茸茸的触感<br>
+还是若有似无飘荡着的让人安心的洗衣粉的味道？<br>
+今天也有遇到这些可爱的灵魂嘛<br>
+它们也许也在告诉你什么呢。<br>
+						点击 <span class="demo-controls"></span>，选择你喜欢的版式。</p>
+					</div>
+
+					<!-- Gallery -->
+						<div class="gallery style2 medium lightbox onscroll-fade-in">
+
+
+							<article>
+								<a href="images/gallery/fulls/01.jpg" class="image">
+									<img src="遇见阳光.jpg" alt="" />
+								</a>
+								<div class="caption">
+									<h3>遇见阳光</h3>
+									<p>面对太阳，阴影将落在你的背后。</p>
+									<p>——沃尔特·惠特曼</p>
+								</div>
+							</article>
+
+
+							<article>
+								<a href="images/gallery/fulls/02.jpg" class="image">
+									<img src="墙脚猫.jpg" alt="" />
+								</a>
+								<div class="caption">
+									<h3>转角遇见爱</h3>
+									<p>万物皆有裂隙，那是光照进来的地方。</p>
+									<p>——莱昂纳多·科恩</p>
+								</div>
+							</article>
+
+
+							<article>
+								<a href="images/gallery/fulls/03.jpg" class="image">
+									<img src="小羊.jpg" alt="" />
+								</a>
+								<div class="caption">
+									<h3>暖阳，暖羊</h3>
+									<p>一直怀揣着最美的愿望，倾听内心的声音，再看看会发生什么。</p>
+									<p>——托尼·德利索</p>
+								</div>
+							</article>
+
+
+							<article>
+								<a href="images/gallery/fulls/04.jpg" class="image">
+									<img src="猫腾飞.jpg" alt="" />
+								</a>
+								<div class="caption">
+									<h3>飞起来呀</h3>
+									<p>当一切都“开始了”之后，这世界上再没有什么可怕的事。</p>
+									<p>——王小波</p>
+								</div>
+							</article>
+
+
+							<article>
+								<a href="images/gallery/fulls/05.jpg" class="image">
+									<img src="开心一点呀.jpg" alt="" />
+								</a>
+								<div class="caption">
+									<h3>开心一点鸭</h3>
+									<p>最长的路也有尽头，最黑暗的夜晚也会迎接清晨。</p>
+									<p>——斯托夫人</p>
+								</div>
+							</article>
+
+							<article>
+								<a href="images/gallery/fulls/06.jpg" class="image">
+									<img src="乖，摸摸头.jpg" alt="" />
+								</a>
+								<div class="caption">
+									<h3>乖，摸摸头</h3>
+									<p>我们应该撕开生活外层的布，去欣赏一朵花的盛开，一束阳光的倾泄，一湖秋水的静谧。</p>
+									<p>——《见素》</p>
+								</div>
+							</article>
+
+
+							<article>
+								<a href="images/gallery/fulls/07.jpg" class="image">
+									<img src="下午茶时光.jpg" alt="" />
+								</a>
+								<div class="caption">
+									<h3>下午茶时光</h3>
+									<p>树在。山在。大地在。岁月在。我在。你还要怎样更好的世界？</p>
+									<p>——张晓风</p>
+								</div>
+							</article>
+
+							<script>
+				setTimeout(function(){alert("请放心，本网站绝对保障你们的信息安全");},10000)
+							</script>
+
+
 						</div>
 
-						<!-- Gallery -->
-							<div class="gallery style2 medium lightbox onscroll-fade-in">
+				</section>
 
+				<section class="wrapper style1 align-center">
+					<h1>一封来自未来的信</h1>
+					<p style="text-align:center">笔尖、文字、墨香，思绪在字里行间流淌。<br>
+时光荏苒，你已经80岁了。你经历过风霜，也获得了你的所想。<br>
+或许你可以在这里，带着你的所有想要倾诉，给现在的自己写一封信，用文字传达你的情感。<br>
+嘘，没关系，我会帮你望着风。<br>
+这是独属于我们之间的小小秘密。</p>
+					<br>
+					<center>
+						<textArea id='msg'>
+						</textArea><br>
+						<input type='button' value='submit' onclick="showMsgs()"><br>
+						<textArea id='showMsg' style= "border:0; height:608px; width:458px; background-image:url( '信笺.png')" disabled>
+						</textArea><br>
+					</center>
 
-								<article>
-									<a href="images/gallery/fulls/01.jpg" class="image">
-										<img src="anmianyao.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>安眠药</h3>
-										<p>很多人认为安眠药物不痛苦，事实上吃安眠药最难受。药物会在进入半睡眠状态下出现胃部刺激而引发呕吐，因为神经被麻痹，人不能动，呕吐液体会进入肺部和鼻腔，引起<strong>巨大的呼吸痛苦和肺部灼烧感</strong>，要受煎熬15分钟上下。</p>
-									</div>
-								</article>
-
-
-								<article>
-									<a href="images/gallery/fulls/02.jpg" class="image">
-										<img src="dianji.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>电击</h3>
-										<p>电伤从外观看一般有电弧烧伤、<strong>电的烙印和熔化的金属渗入皮肤</strong>等伤害。总之，当人触电后，由于电流通
-											过人体和发生电弧、往往使人体烧伤.<strong>这样的自杀方式不适合美丽的你，换一种吧～</strong></p)
-									</div>
-								</article>
-
-
-								<article>
-									<a href="images/gallery/fulls/03.jpg" class="image">
-										<img src="touhe.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>投河</h3>
-										<p>窒息的过程很长，维持意识达5分钟以上，途中伴有挣扎，惨叫，而且水温还会对临死的人带来巨大的刺激。形象会很差，人会被肿的面目全非，腐臭不堪。<strong>这种自杀方式不适合香香的你，换一种吧～</strong></p>
-									</div>
-								</article>
-
-
-								<article>
-									<a href="images/gallery/fulls/04.jpg" class="image">
-										<img src="meiqi.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>煤气中毒</h3>
-										<p>煤气中毒会导致头晕、头痛、恶心、呕吐，中毒越严重，症状越痛苦。严重中毒的表现有昏迷、肢体抽搐、大小便失禁等。<strong>这种自杀的方式和优雅的你不符，换一种自杀方式吧～</strong></p>
-									</div>
-								</article>
-
-
-								<article>
-									<a href="images/gallery/fulls/05.jpg" class="image">
-										<img src="gewan.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>割腕</h3>
-										<p>90%的人不知道正确位置和深度，白白留下伤痕。大多数割腕的下场是由于失血过多出现昏迷，血在昏迷后出现结痂，大脑由于缺血成了植物人。
-											<strong>这种自杀方式不适合活泼可爱的你，换一种吧～</strong></p>
-									</div>
-								</article>
-
-								<article>
-									<a href="images/gallery/fulls/06.jpg" class="image">
-										<img src="shangdiao.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>上吊</h3>
-										<p>上吊引起的意识消失可达15分钟，上吊而死的人会本能的出现剧烈挣扎，而导致裤子掉下来情况并不少见。
-											<strong>这种自杀方式不适合漂亮的你，换一种吧～</strong></p>
-									</div>
-								</article>
-
-
-								<article>
-									<a href="images/gallery/fulls/07.jpg" class="image">
-										<img src="zhuilou.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>坠楼</h3>
-										<p>优点是可以在死前享受自由落体的超蹦极的快感,缺点是万一跳楼高度不够,造成终生残疾.另外还可能招来大批无聊群众的围观甚至电视直播.<strong>这种自杀方式不适合稳重的你，换一种吧～</strong></p>
-									</div>
-								</article>
-
-								<script>
-					setTimeout(function(){alert("所以死亡是很痛苦的哦，不如好好活下去吧！");},10000)
-								</script>
-
-
-							</div>
-
-					</section>
-
+				</section>
+				
 				<!-- Items -->
 					<section class="wrapper style1 align-center">
 						<div class="inner">
